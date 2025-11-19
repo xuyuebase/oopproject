@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <!-- 标题栏 -->
+    <TextView
+        android:text="Food Log"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#0F5132"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- 食物名称 -->
+    <EditText
+        android:id="@+id/editFood"
+        android:hint="Food name"
+        android:background="@drawable/input_box"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- 卡路里 -->
+    <EditText
+        android:id="@+id/editCalories"
+        android:hint="Calories"
+        android:inputType="number"
+        android:background="@drawable/input_box"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- 添加按钮 -->
+    <Button
+        android:id="@+id/btnAddFood"
+        android:text="Add Food"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/green_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+    <!-- 食物列表显示 -->
+
+    <!-- 底部导航栏 -->
+    <TextView
+        android:id="@+id/txtFoodList"
+        android:layout_width="match_parent"
+        android:layout_height="371dp"
+        android:layout_marginTop="20dp"
+        android:text="Your Food Log:\n"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <include layout="@layout/bottom_nav"/>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editName"
+            android:hint="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_box"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/editAge"
+            android:hint="Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_box"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/editHeight"
+            android:hint="Height (cm)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_box"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/editWeight"
+            android:hint="Weight (kg)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_box"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/editGender"
+            android:hint="Gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_box"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/editActivity"
+            android:hint="Activity Level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_box"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/editBio"
+            android:hint="Bio"
+            android:minHeight="100dp"
+            android:gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_box"
+            android:padding="12dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:text="Save"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/green_button"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="28dp"
+        android:layout_height="wrap_content">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logoReg"
+            android:src="@drawable/logo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/textTitle"
+            android:text="CREATE ACCOUNT"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#0F5132"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/editName"
+            android:hint="Full Name"
+            android:background="@drawable/input_box"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/editEmail"
+            android:hint="Email"
+            android:background="@drawable/input_box"
+            android:inputType="textEmailAddress"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/editPassword"
+            android:hint="Password"
+            android:background="@drawable/input_box"
+            android:inputType="textPassword"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Confirm Password -->
+        <EditText
+            android:id="@+id/editConfirm"
+            android:hint="Confirm Password"
+            android:background="@drawable/input_box"
+            android:inputType="textPassword"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp" />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:text="SIGN UP"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"/>
+
+        <!-- Go back to Login -->
+        <TextView
+            android:id="@+id/textLogin"
+            android:text="Already have an account? Log In"
+            android:textColor="#F28A1E"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
